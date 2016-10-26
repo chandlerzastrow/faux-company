@@ -5,14 +5,30 @@ body {
 	background: $desktop-bg;
 }
 
-main {
+body,h1,nav {
 	@include box();
 }
 
-main {
-	@include span(12);
-}
 
+h1{
+	@include span(6);
+}
+nav{
+	@include span(6 last);
+	padding-right: 100px;
+	padding-top:50px;
+		ul{list-style-type: none;
+    	margin: 0;
+   		padding: 0;
+    	overflow: hidden;
+
+		}
+			li{
+				padding-right: 10px;
+				padding-left: 10px;
+				float: left;
+			}
+}
 
 @include susy-breakpoint($large) {
 	body {
@@ -27,9 +43,9 @@ main {
 	main {
     	@include span(12);
     }//main
-   // aside {
-    	//@include span(6 last);
-    //}//aside
+    aside {
+    	@include span(6 last);
+    }//aside
 	
 }//medium breakpoint
 
@@ -49,3 +65,19 @@ main {
 h1{
 	font-family: 'Poiret One', cursive;
 }
+
+
+
+
+/*li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}*/
+
