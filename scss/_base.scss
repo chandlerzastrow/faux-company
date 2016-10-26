@@ -47,14 +47,50 @@ nav{
 .textbox{
 	margin-top: 20px;
 	@include span(6);
+	max-width: 45%;
+	min-width: 45%;
+	width:320px;
+	height:300px;
+	//margin-bottom: 150px;
+		p{padding-left: 80px;
+			padding-top: 180px;
+
+		}
+}
+.fulltext{
+	@include span(12);
 }
 .smallerimage{
 	margin-top: 20px;
 	img{
 	@include span(6);
-	max-width: 40%;
-	min-width: 40%;
+	max-width: 45%;
+	min-width: 45%;
 	float:right;}
+	
+}
+.textbox2{
+	@include span(6);
+	margin-top: 20px;
+	margin-bottom: 500px;
+
+	max-width: 45%;
+	min-width: 45%;
+	p{padding-left: 170px;
+			padding-top: 180px;
+			
+
+		}
+	
+}
+.smallerimage2{
+	
+	img{
+	@include span(6);
+	margin-top: 160px;
+	max-width: 45%;
+	min-width: 45%;
+	}
 	
 }
 footer{

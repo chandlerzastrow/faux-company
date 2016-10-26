@@ -151,6 +151,21 @@ nav li {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%;
+  max-width: 45%;
+  min-width: 45%;
+  width: 320px;
+  height: 300px;
+}
+.textbox p {
+  padding-left: 80px;
+  padding-top: 180px;
+}
+
+.fulltext {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .smallerimage {
@@ -160,9 +175,32 @@ nav li {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%;
-  max-width: 40%;
-  min-width: 40%;
+  max-width: 45%;
+  min-width: 45%;
   float: right;
+}
+
+.textbox2 {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-top: 20px;
+  margin-bottom: 500px;
+  max-width: 45%;
+  min-width: 45%;
+}
+.textbox2 p {
+  padding-left: 170px;
+  padding-top: 180px;
+}
+
+.smallerimage2 img {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-top: 160px;
+  max-width: 45%;
+  min-width: 45%;
 }
 
 footer {
