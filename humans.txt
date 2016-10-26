@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Chandler Zastrow> -- <Master Creator> -- <@CZSwerv>
 
 # THANKS
 
-    <name>
+    <David Schaal>
 
 # TECHNOLOGY COLOPHON
 

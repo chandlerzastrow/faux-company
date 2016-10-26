@@ -1,8 +1,51 @@
 
-h1{
-	font-family: 'Poiret One', cursive;
+
+
+body {
+	background: $desktop-bg;
 }
 
-.contain{
+main {
+	@include box();
+}
+
+main {
+	@include span(12);
+}
+
+
+@include susy-breakpoint($large) {
+	body {
+		background:$large-bg;
+	}//body
+}//large breakpoint
+
+@include susy-breakpoint($medium) {
+	body {
+		background:$medium-bg;
+		}//body
+	main {
+    	@include span(12);
+    }//main
+   // aside {
+    	//@include span(6 last);
+    //}//aside
 	
+}//medium breakpoint
+
+@include susy-breakpoint($small) {
+	body {
+		background:$small-bg;
+		}//body
+	main {
+    	@include span(12);
+    }//main
+   // aside {
+    //	@include span(12);
+    //}//aside
+	
+}//small breakpoint
+
+h1{
+	font-family: 'Poiret One', cursive;
 }
