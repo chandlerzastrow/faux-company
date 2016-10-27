@@ -30,6 +30,10 @@ h2{
 p{
 	text-align: center;
 }
+a {text-decoration: none; }
+a:visited{
+	color:black;
+}
 nav{
 	@include span(6 last);
 	//padding-right: 100px;
@@ -72,10 +76,19 @@ nav{
 
 		}
 }
+.image3{
+	@include span(3);
+	//width:300px;
+	//height:300px;
+	max-width: 30%;
+	min-width: 30%;
+	height: auto;
+
+}
 .fulltext{
 	@include span(12);
-		margin-top: 40px;
-	margin-bottom: 40px;
+		margin-top: 60px;
+	margin-bottom: 60px;
 }
 .smallerimage{
 	margin-top: 20px;
