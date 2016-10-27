@@ -122,6 +122,8 @@ h1 {
 h2 {
   text-align: center;
   font-weight: normal;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 p {
@@ -244,10 +246,33 @@ footer {
     margin-right: 0;
   }
 
-  aside {
-    width: 49.15254%;
+  h1 {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-weight: light;
+  }
+
+  nav {
+    width: 74.57627%;
     float: right;
     margin-right: 0;
+    padding-top: 30px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 60px;
+  }
+  nav li {
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: left;
   }
 }
 @media (min-width: 1px) and (max-width: 480px) {
@@ -276,7 +301,7 @@ footer {
     width: 100%;
     float: right;
     margin-right: 0;
-    padding-top: 30px;
+    padding-bottom: 40px;
   }
   nav ul {
     list-style-type: none;
