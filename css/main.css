@@ -303,6 +303,15 @@ footer {
     padding-bottom: 10px;
     float: left;
   }
+
+  .image3 {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%;
+    max-width: 40%;
+    min-width: 40%;
+    height: auto;
+  }
 }
 @media (min-width: 1px) and (max-width: 480px) {
   body {
@@ -345,8 +354,19 @@ footer {
     padding-bottom: 10px;
     float: left;
   }
+
+  .image3 {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
 }
-h1, h2, nav, p {
+h1, h2, nav, p, footer {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
