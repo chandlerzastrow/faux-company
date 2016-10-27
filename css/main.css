@@ -201,6 +201,18 @@ nav li {
   margin-bottom: 60px;
 }
 
+.arrow {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+}
+.arrow img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
 .smallerimage {
   margin-top: 20px;
 }
