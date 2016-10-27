@@ -126,6 +126,12 @@ h2 {
   padding-right: 80px;
 }
 
+.textreplace h3 {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
 p {
   text-align: center;
 }
